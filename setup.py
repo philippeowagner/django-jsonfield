@@ -23,7 +23,7 @@ class TestCommand(Command):
         call_command('test', 'jsonfield')
 
 setup(name='jsonfield',
-    version='1.0.3',
+    version='1.0.3.post1',
     packages=['jsonfield'],
     include_package_data=True, 
     license='MIT',
